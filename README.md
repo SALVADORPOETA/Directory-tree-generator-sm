@@ -4,6 +4,8 @@ This is an **ORIGINAL** project built with **Vanilla JavaScript, HTML5, and CSS3
 
 The application leverages the `webkitdirectory` API to read folder structures and a recursive tree-building algorithm to map nested directories. To ensure high-quality, relevant output, the logic includes a built-in **Filtering Engine** that automatically excludes "noise" such as system files, dependency artifacts (`node_modules`), and heavy cache directories (`ShaderCache`, `session`). This results in a professional-grade visualization suitable for README files, technical wikis, and architectural overviews.
 
+<img width="763" height="633" alt="directory" src="https://github.com/user-attachments/assets/d3070dd7-52ca-4bb6-ac32-89d15bca1e2b" />
+
 ## 🚀 Features
 
 * **Zero-Server Architecture**: 100% client-side processing for total privacy.
@@ -86,5 +88,6 @@ This project is production-ready for platforms like **Vercel**, **GitHub Pages**
 This is a completely original project. For any use, reproduction, or distribution inquiries, please contact the author.
 
 *Made by Salvador Martinez*
+
 
 
