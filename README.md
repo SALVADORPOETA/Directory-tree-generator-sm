@@ -43,7 +43,7 @@ Since this is a frontend-only utility, no complex setup is required.
 1. **Clone the repository**
 ```bash
 git clone https://github.com/YOUR_USERNAME/directory-tree-generator.git
-cd directory-tree-generator
+cd directory-tree-generator-sm
 
 ```
 
@@ -86,3 +86,4 @@ This project is production-ready for platforms like **Vercel**, **GitHub Pages**
 This is a completely original project. For any use, reproduction, or distribution inquiries, please contact the author.
 
 *Made by Salvador Martinez*
+
