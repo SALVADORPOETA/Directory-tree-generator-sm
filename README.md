@@ -78,7 +78,7 @@ This project is production-ready for platforms like **Vercel**, **GitHub Pages**
 
 **Salvador Martínez** *Full-Stack Developer*
 
-[GitHub](https://github.com/SALVADORPOETA) | [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/YOUR_LINKEDIN)
+[GitHub](https://github.com/SALVADORPOETA) | [LinkedIn](https://www.linkedin.com/in/salvador-martinez-sm/)
 
 ## ⚖️ License
 
@@ -86,4 +86,5 @@ This project is production-ready for platforms like **Vercel**, **GitHub Pages**
 This is a completely original project. For any use, reproduction, or distribution inquiries, please contact the author.
 
 *Made by Salvador Martinez*
+
 
