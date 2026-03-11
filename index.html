@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directory Tree Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>📂 Directory Tree Generator</h2>
+        <p class="subtitle">
+          Generate a clean directory tree structure for your projects.
+        </p>
+      </header>
+
+      <div class="upload-section">
+        <input
+          type="file"
+          id="folderInput"
+          webkitdirectory
+          directory
+          multiple
+        />
+        <p class="info">
+          Active filters: .git, node_modules, session, venv, etc.
+        </p>
+      </div>
+
+      <div id="outputText" class="code-area">
+        Your project structure will appear here...
+      </div>
+
+      <div class="controls">
+        <button id="copyBtn" class="btn-primary">Copy Structure</button>
+        <button id="clearBtn" class="btn-secondary">Clear All</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

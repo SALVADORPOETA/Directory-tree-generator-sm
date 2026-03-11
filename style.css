@@ -1,0 +1,100 @@
+:root {
+  --bg-color: #f4f7f6;
+  --container-bg: #ffffff;
+  --text-primary: #2d3436;
+  --code-bg: #1e1e1e;
+  --code-text: #d4d4d4;
+  --accent-color: #0984e3;
+  --accent-hover: #74b9ff;
+}
+
+body {
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  background: var(--container-bg);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+header h2 {
+  margin-top: 0;
+}
+.subtitle {
+  color: #636e72;
+  font-size: 0.9rem;
+}
+
+.upload-section {
+  margin: 25px 0;
+}
+
+.info {
+  font-size: 11px;
+  color: #b2bec3;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.code-area {
+  width: 100%;
+  height: 500px;
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 20px;
+  border-radius: 8px;
+  overflow: auto;
+  white-space: pre;
+  font-family: 'Fira Code', 'Cascadia Code', 'Source Code Pro', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--accent-color);
+  color: white;
+}
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.btn-secondary {
+  background: #dfe6e9;
+  color: #636e72;
+}
+.btn-secondary:hover {
+  background: #b2bec3;
+  color: white;
+}
